@@ -1,0 +1,33 @@
+{
+  "name": "reactbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node -- src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "bcrypt": "^3.0.3",
+    "bluebird": "^3.5.3",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.4.6",
+    "mongoose-unique-validator": "^2.0.2",
+    "nodemailer": "^5.1.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.18.9"
+  }
+}
